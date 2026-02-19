@@ -1,15 +1,14 @@
 namespace Catalog.API.Products.GetProducts;
 
-public record GetProductsQuery : IRequest<GetProductsResult>;
-
+public record GetProductsQuery : IQuery<GetProductsResult>;
 public record GetProductsResult(IEnumerable<Product> Products);
 
 public class GetProductsQueryHandler(IDocumentSession session, ILogger<GetProductsQueryHandler> logger)
-    : IRequestHandler<GetProductsQuery, GetProductsResult>
+    : IQueryHandler<GetProductsQuery, GetProductsResult>
 {
-    public async Task<GetProductsResult> Handle(GetProductsQuery request, CancellationToken cancellationToken)
+    public async Task<GetProductsResult> Handle(GetProductsQuery query, CancellationToken cancellationToken)
     {
-        logger.LogInformation("GetProductsQueryHandler. Handler called with request: {@query}");
+        logger.LogInformation("GetProductsQueryHandler. Handler called with request: {@Query}", query);
         var products = await session.Query<Product>().ToListAsync(cancellationToken);
         return new GetProductsResult(products);
     }
