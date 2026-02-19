@@ -8,9 +8,25 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Content Include="..\..\..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
+        <Content Include="..\..\..\.dockerignore">
+            <Link>.dockerignore</Link>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Products\DeleteProduct\"/>
+        <Folder Include="Products\GetProductByCategory\"/>
+        <Folder Include="Products\GetProductById\"/>
+        <Folder Include="Products\GetProducts\"/>
+        <Folder Include="Products\UpdateProduct\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Marten" Version="8.22.0"/>
     </ItemGroup>
 
 </Project>
