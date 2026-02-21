@@ -55,6 +55,10 @@ Thumbs.db
 **/postgres-data/
 **/*.sqlite
 **/*.db
+.docker/certs/*.pfx
+.docker/certs/*.pem
+**/.docker/certs/*.pfx
+**/.docker/certs/*.pem
 
 # Docker certificates
 .docker/certs/*.pfx
