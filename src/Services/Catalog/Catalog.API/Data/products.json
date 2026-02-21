@@ -1,0 +1,964 @@
+[
+  {
+    "Name": "MacBook Pro 16\" M3 Max",
+    "Category": [
+      "Laptop",
+      "Apple"
+    ],
+    "Description": "Apple MacBook Pro 16 pouces avec puce M3 Max, 48GB RAM, 1TB SSD.",
+    "ImageFile": "macbook-pro-16-m3.png",
+    "Price": 3999.99
+  },
+  {
+    "Name": "Sony WH-1000XM5",
+    "Category": [
+      "Audio",
+      "Headphones"
+    ],
+    "Description": "Casque Sony à réduction de bruit active leader du marché.",
+    "ImageFile": "sony-wh1000xm5.png",
+    "Price": 349.99
+  },
+  {
+    "Name": "Elgato Stream Deck MK.2",
+    "Category": [
+      "Streaming",
+      "Elgato"
+    ],
+    "Description": "Contrôleur 15 touches LCD personnalisables pour streamers.",
+    "ImageFile": "elgato-streamdeck-mk2.png",
+    "Price": 149.99
+  },
+  {
+    "Name": "iPad Pro 13\" M4",
+    "Category": [
+      "Tablet",
+      "Apple"
+    ],
+    "Description": "iPad Pro 13 pouces avec puce M4, écran OLED Ultra Retina XDR.",
+    "ImageFile": "ipad-pro-13-m4.png",
+    "Price": 1299.99
+  },
+  {
+    "Name": "Samsung 49\" Odyssey G9",
+    "Category": [
+      "Monitor",
+      "Samsung"
+    ],
+    "Description": "Écran ultra-wide gaming 49 pouces DQHD 240Hz QLED.",
+    "ImageFile": "samsung-odyssey-g9.png",
+    "Price": 1299.99
+  },
+  {
+    "Name": "Logitech MX Master 3S",
+    "Category": [
+      "Peripherals",
+      "Mouse"
+    ],
+    "Description": "Souris sans fil haute précision 8000 DPI pour productivité.",
+    "ImageFile": "logitech-mx-master-3s.png",
+    "Price": 99.99
+  },
+  {
+    "Name": "Keychron Q1 Pro",
+    "Category": [
+      "Peripherals",
+      "Keyboard"
+    ],
+    "Description": "Clavier mécanique sans fil 75% aluminium, switches Gateron.",
+    "ImageFile": "keychron-q1-pro.png",
+    "Price": 199.99
+  },
+  {
+    "Name": "Sony A7 IV",
+    "Category": [
+      "Camera",
+      "Sony"
+    ],
+    "Description": "Appareil photo hybride plein format 33MP, 4K 60fps.",
+    "ImageFile": "sony-a7-iv.png",
+    "Price": 2499.99
+  },
+  {
+    "Name": "Elgato Facecam Pro",
+    "Category": [
+      "Streaming",
+      "Elgato",
+      "Camera"
+    ],
+    "Description": "Webcam 4K 60fps pour streaming professionnel.",
+    "ImageFile": "elgato-facecam-pro.png",
+    "Price": 299.99
+  },
+  {
+    "Name": "Apple AirPods Pro 2",
+    "Category": [
+      "Audio",
+      "Apple"
+    ],
+    "Description": "Écouteurs true wireless avec ANC adaptatif et audio spatial.",
+    "ImageFile": "airpods-pro-2.png",
+    "Price": 249.99
+  },
+  {
+    "Name": "LG UltraFine 5K Display",
+    "Category": [
+      "Monitor",
+      "LG"
+    ],
+    "Description": "Écran 27 pouces 5K Retina pour Mac, USB-C.",
+    "ImageFile": "lg-ultrafine-5k.png",
+    "Price": 1299.99
+  },
+  {
+    "Name": "NVIDIA GeForce RTX 4090",
+    "Category": [
+      "GPU",
+      "NVIDIA"
+    ],
+    "Description": "Carte graphique haut de gamme 24GB GDDR6X, Ada Lovelace.",
+    "ImageFile": "rtx-4090.png",
+    "Price": 1999.99
+  },
+  {
+    "Name": "Rode NT-USB Mini",
+    "Category": [
+      "Audio",
+      "Microphone"
+    ],
+    "Description": "Microphone USB compact studio de qualité pour podcasting.",
+    "ImageFile": "rode-nt-usb-mini.png",
+    "Price": 99.99
+  },
+  {
+    "Name": "Elgato Wave:3",
+    "Category": [
+      "Streaming",
+      "Elgato",
+      "Microphone"
+    ],
+    "Description": "Microphone USB cardioïde pour streamers avec Clipguard.",
+    "ImageFile": "elgato-wave3.png",
+    "Price": 149.99
+  },
+  {
+    "Name": "Samsung T9 2TB",
+    "Category": [
+      "Storage",
+      "Samsung"
+    ],
+    "Description": "SSD externe portable 2TB USB 3.2 Gen 2x2 jusqu'à 2000MB/s.",
+    "ImageFile": "samsung-t9-2tb.png",
+    "Price": 219.99
+  },
+  {
+    "Name": "Apple Magic Keyboard",
+    "Category": [
+      "Peripherals",
+      "Apple",
+      "Keyboard"
+    ],
+    "Description": "Clavier sans fil Apple avec Touch ID et pavé numérique.",
+    "ImageFile": "apple-magic-keyboard.png",
+    "Price": 179.99
+  },
+  {
+    "Name": "Anker 737 PowerBank",
+    "Category": [
+      "Accessories",
+      "Anker"
+    ],
+    "Description": "Batterie externe 24000mAh 140W charge bidirectionnelle.",
+    "ImageFile": "anker-737.png",
+    "Price": 149.99
+  },
+  {
+    "Name": "Razer BlackShark V2 Pro",
+    "Category": [
+      "Audio",
+      "Gaming",
+      "Headphones"
+    ],
+    "Description": "Casque gaming sans fil 50mm THX Spatial Audio.",
+    "ImageFile": "razer-blackshark-v2-pro.png",
+    "Price": 199.99
+  },
+  {
+    "Name": "Elgato Key Light",
+    "Category": [
+      "Streaming",
+      "Elgato",
+      "Lighting"
+    ],
+    "Description": "Panneau LED 2800 lumens pour streaming, contrôle via app.",
+    "ImageFile": "elgato-key-light.png",
+    "Price": 199.99
+  },
+  {
+    "Name": "Sony ZV-E10 II",
+    "Category": [
+      "Camera",
+      "Sony",
+      "Streaming"
+    ],
+    "Description": "Appareil photo APS-C dédié vlogging 4K 60fps, AF rapide.",
+    "ImageFile": "sony-zv-e10-ii.png",
+    "Price": 799.99
+  },
+  {
+    "Name": "Secretlab TITAN Evo 2022",
+    "Category": [
+      "Furniture",
+      "Chair"
+    ],
+    "Description": "Chaise gaming ergonomique avec support lombaire magnétique.",
+    "ImageFile": "secretlab-titan-evo.png",
+    "Price": 549.99
+  },
+  {
+    "Name": "Herman Miller Embody",
+    "Category": [
+      "Furniture",
+      "Chair"
+    ],
+    "Description": "Chaise de bureau ergonomique premium pour longues sessions.",
+    "ImageFile": "herman-miller-embody.png",
+    "Price": 1895.00
+  },
+  {
+    "Name": "Corsair K100 RGB",
+    "Category": [
+      "Peripherals",
+      "Keyboard",
+      "Gaming"
+    ],
+    "Description": "Clavier gaming mécanique avec roulette OPX et RGB iCUE.",
+    "ImageFile": "corsair-k100-rgb.png",
+    "Price": 229.99
+  },
+  {
+    "Name": "Apple Mac mini M4 Pro",
+    "Category": [
+      "Desktop",
+      "Apple"
+    ],
+    "Description": "Mac mini compact avec M4 Pro, 24GB RAM, 512GB SSD.",
+    "ImageFile": "mac-mini-m4-pro.png",
+    "Price": 1399.99
+  },
+  {
+    "Name": "Dell XPS 15 OLED",
+    "Category": [
+      "Laptop",
+      "Dell"
+    ],
+    "Description": "Laptop 15 pouces OLED 3.5K Intel Core Ultra 9, RTX 4060.",
+    "ImageFile": "dell-xps-15-oled.png",
+    "Price": 2499.99
+  },
+  {
+    "Name": "Shure SM7B",
+    "Category": [
+      "Audio",
+      "Microphone"
+    ],
+    "Description": "Microphone dynamique XLR référence broadcasting et podcasting.",
+    "ImageFile": "shure-sm7b.png",
+    "Price": 399.99
+  },
+  {
+    "Name": "Focusrite Scarlett 2i2",
+    "Category": [
+      "Audio",
+      "Interface"
+    ],
+    "Description": "Interface audio USB 2 entrées/2 sorties pour home studio.",
+    "ImageFile": "focusrite-scarlett-2i2.png",
+    "Price": 169.99
+  },
+  {
+    "Name": "Logitech C920 Pro HD",
+    "Category": [
+      "Streaming",
+      "Camera"
+    ],
+    "Description": "Webcam 1080p 30fps avec correction automatique de lumière.",
+    "ImageFile": "logitech-c920.png",
+    "Price": 79.99
+  },
+  {
+    "Name": "Teenage Engineering OP-1 Field",
+    "Category": [
+      "Audio",
+      "Synthesizer"
+    ],
+    "Description": "Synthétiseur portable avec sampler et séquenceur 4 pistes.",
+    "ImageFile": "op-1-field.png",
+    "Price": 1999.99
+  },
+  {
+    "Name": "Elgato Stream Deck XL",
+    "Category": [
+      "Streaming",
+      "Elgato"
+    ],
+    "Description": "Contrôleur 32 touches LCD pour streamers et créateurs.",
+    "ImageFile": "elgato-streamdeck-xl.png",
+    "Price": 249.99
+  },
+  {
+    "Name": "Sony WF-1000XM5",
+    "Category": [
+      "Audio",
+      "Sony"
+    ],
+    "Description": "Écouteurs true wireless ANC avec processeur V2 et codec LDAC.",
+    "ImageFile": "sony-wf1000xm5.png",
+    "Price": 299.99
+  },
+  {
+    "Name": "Razer DeathAdder V3 HyperSpeed",
+    "Category": [
+      "Peripherals",
+      "Mouse",
+      "Gaming"
+    ],
+    "Description": "Souris gaming sans fil ergonomique Focus Pro 30K DPI.",
+    "ImageFile": "razer-deathadder-v3.png",
+    "Price": 99.99
+  },
+  {
+    "Name": "ASUS ROG Zephyrus G14",
+    "Category": [
+      "Laptop",
+      "Gaming"
+    ],
+    "Description": "Laptop gaming 14 pouces AMD Ryzen 9, RTX 4090, OLED 165Hz.",
+    "ImageFile": "asus-rog-zephyrus-g14.png",
+    "Price": 2299.99
+  },
+  {
+    "Name": "Rode PodMic USB",
+    "Category": [
+      "Audio",
+      "Microphone"
+    ],
+    "Description": "Microphone dynamique USB/XLR dual-mode pour podcast.",
+    "ImageFile": "rode-podmic-usb.png",
+    "Price": 229.99
+  },
+  {
+    "Name": "Elgato Green Screen",
+    "Category": [
+      "Streaming",
+      "Elgato"
+    ],
+    "Description": "Fond vert rétractable 148x180cm pour streaming.",
+    "ImageFile": "elgato-green-screen.png",
+    "Price": 159.99
+  },
+  {
+    "Name": "Apple Studio Display",
+    "Category": [
+      "Monitor",
+      "Apple"
+    ],
+    "Description": "Écran 27 pouces 5K Retina avec webcam 12MP et audio spatial.",
+    "ImageFile": "apple-studio-display.png",
+    "Price": 1599.99
+  },
+  {
+    "Name": "Samsung 990 Pro 2TB",
+    "Category": [
+      "Storage",
+      "Samsung"
+    ],
+    "Description": "SSD NVMe M.2 PCIe 4.0 7450MB/s lecture.",
+    "ImageFile": "samsung-990-pro.png",
+    "Price": 179.99
+  },
+  {
+    "Name": "Corsair Dominator Platinum 64GB",
+    "Category": [
+      "RAM",
+      "Corsair"
+    ],
+    "Description": "Kit RAM DDR5 6000MHz CL30 avec RGB iCUE.",
+    "ImageFile": "corsair-dominator-64gb.png",
+    "Price": 299.99
+  },
+  {
+    "Name": "Elgato Cam Link 4K",
+    "Category": [
+      "Streaming",
+      "Elgato"
+    ],
+    "Description": "Carte de capture HDMI pour utiliser un appareil photo comme webcam.",
+    "ImageFile": "elgato-cam-link-4k.png",
+    "Price": 129.99
+  },
+  {
+    "Name": "Sony A7C II",
+    "Category": [
+      "Camera",
+      "Sony"
+    ],
+    "Description": "Hybride plein format compact 33MP BSI avec IBIS 7 stops.",
+    "ImageFile": "sony-a7c-ii.png",
+    "Price": 2199.99
+  },
+  {
+    "Name": "Logitech MX Keys S",
+    "Category": [
+      "Peripherals",
+      "Keyboard"
+    ],
+    "Description": "Clavier sans fil rétroéclairé avec Smart Actions et Bolt.",
+    "ImageFile": "logitech-mx-keys-s.png",
+    "Price": 119.99
+  },
+  {
+    "Name": "Apple AirPods Max",
+    "Category": [
+      "Audio",
+      "Apple"
+    ],
+    "Description": "Casque over-ear Apple avec ANC et audio spatial personnalisé.",
+    "ImageFile": "airpods-max.png",
+    "Price": 549.99
+  },
+  {
+    "Name": "Razer Viper V3 HyperSpeed",
+    "Category": [
+      "Peripherals",
+      "Mouse",
+      "Gaming"
+    ],
+    "Description": "Souris gaming ultra-légère sans fil Focus Pro 35K DPI.",
+    "ImageFile": "razer-viper-v3.png",
+    "Price": 99.99
+  },
+  {
+    "Name": "Elgato Wave XLR",
+    "Category": [
+      "Streaming",
+      "Elgato",
+      "Audio"
+    ],
+    "Description": "Interface audio XLR USB-C pour microphones dynamiques.",
+    "ImageFile": "elgato-wave-xlr.png",
+    "Price": 149.99
+  },
+  {
+    "Name": "ASUS ProArt PA32UCG",
+    "Category": [
+      "Monitor",
+      "ASUS"
+    ],
+    "Description": "Écran 32 pouces 4K 144Hz Mini LED HDR10 pour créatifs.",
+    "ImageFile": "asus-proart-pa32ucg.png",
+    "Price": 2999.99
+  },
+  {
+    "Name": "Anker USB-C Hub 12-in-1",
+    "Category": [
+      "Accessories",
+      "Anker"
+    ],
+    "Description": "Hub USB-C 12 ports avec HDMI 4K, Ethernet, SD, 100W PD.",
+    "ImageFile": "anker-hub-12in1.png",
+    "Price": 89.99
+  },
+  {
+    "Name": "Intel Core i9-14900K",
+    "Category": [
+      "CPU",
+      "Intel"
+    ],
+    "Description": "Processeur 24 cores (8P+16E) 6GHz Turbo pour desktop.",
+    "ImageFile": "intel-i9-14900k.png",
+    "Price": 549.99
+  },
+  {
+    "Name": "AMD Ryzen 9 7950X",
+    "Category": [
+      "CPU",
+      "AMD"
+    ],
+    "Description": "Processeur 16 cores 32 threads 5.7GHz Zen 4.",
+    "ImageFile": "amd-ryzen-9-7950x.png",
+    "Price": 649.99
+  },
+  {
+    "Name": "Corsair iCUE H150i Elite",
+    "Category": [
+      "Cooling",
+      "Corsair"
+    ],
+    "Description": "Watercooling AIO 360mm RGB avec pompe PWM.",
+    "ImageFile": "corsair-h150i-elite.png",
+    "Price": 199.99
+  },
+  {
+    "Name": "LG C3 OLED 55\"",
+    "Category": [
+      "TV",
+      "Monitor",
+      "LG"
+    ],
+    "Description": "TV OLED evo 55 pouces 4K 120Hz G-Sync compatible.",
+    "ImageFile": "lg-c3-oled-55.png",
+    "Price": 1299.99
+  },
+  {
+    "Name": "Nintendo Switch OLED",
+    "Category": [
+      "Gaming",
+      "Console"
+    ],
+    "Description": "Console hybride avec écran OLED 7 pouces et Joy-Con.",
+    "ImageFile": "nintendo-switch-oled.png",
+    "Price": 349.99
+  },
+  {
+    "Name": "PlayStation 5 Slim",
+    "Category": [
+      "Gaming",
+      "Console"
+    ],
+    "Description": "Console Sony next-gen 4K 120fps avec SSD ultra-rapide.",
+    "ImageFile": "ps5-slim.png",
+    "Price": 449.99
+  },
+  {
+    "Name": "Xbox Series X",
+    "Category": [
+      "Gaming",
+      "Console"
+    ],
+    "Description": "Console Microsoft 4K 120fps 1TB SSD avec Game Pass.",
+    "ImageFile": "xbox-series-x.png",
+    "Price": 499.99
+  },
+  {
+    "Name": "Rode VideoMic NTG",
+    "Category": [
+      "Audio",
+      "Microphone",
+      "Camera"
+    ],
+    "Description": "Microphone shotgun hybride USB/analogique pour caméra.",
+    "ImageFile": "rode-videomic-ntg.png",
+    "Price": 249.99
+  },
+  {
+    "Name": "Elgato Multi Mount",
+    "Category": [
+      "Streaming",
+      "Elgato",
+      "Accessories"
+    ],
+    "Description": "Système de fixation modulaire pour caméras, micros, lumières.",
+    "ImageFile": "elgato-multi-mount.png",
+    "Price": 99.99
+  },
+  {
+    "Name": "Apple iPhone 16 Pro Max",
+    "Category": [
+      "Smartphone",
+      "Apple"
+    ],
+    "Description": "Smartphone Apple A18 Pro, caméra 48MP, écran ProMotion 6.9\".",
+    "ImageFile": "iphone-16-pro-max.png",
+    "Price": 1299.99
+  },
+  {
+    "Name": "Samsung Galaxy S25 Ultra",
+    "Category": [
+      "Smartphone",
+      "Samsung"
+    ],
+    "Description": "Smartphone Android Snapdragon 8 Elite, S Pen, 200MP.",
+    "ImageFile": "samsung-s25-ultra.png",
+    "Price": 1299.99
+  },
+  {
+    "Name": "DJI Osmo Pocket 3",
+    "Category": [
+      "Camera",
+      "DJI"
+    ],
+    "Description": "Caméra stabilisée 3 axes 4K 120fps capteur 1 pouce.",
+    "ImageFile": "dji-osmo-pocket-3.png",
+    "Price": 519.99
+  },
+  {
+    "Name": "DJI Mini 4 Pro",
+    "Category": [
+      "Drone",
+      "DJI"
+    ],
+    "Description": "Drone compact 4K 60fps HDR avec omnidirectional sensing.",
+    "ImageFile": "dji-mini-4-pro.png",
+    "Price": 759.99
+  },
+  {
+    "Name": "Insta360 X4",
+    "Category": [
+      "Camera",
+      "360"
+    ],
+    "Description": "Caméra 360° 8K avec stabilisation FlowState et GPS.",
+    "ImageFile": "insta360-x4.png",
+    "Price": 499.99
+  },
+  {
+    "Name": "Elgato Key Light Air",
+    "Category": [
+      "Streaming",
+      "Elgato",
+      "Lighting"
+    ],
+    "Description": "Panneau LED compact 1400 lumens pour bureaux plus petits.",
+    "ImageFile": "elgato-key-light-air.png",
+    "Price": 129.99
+  },
+  {
+    "Name": "Corsair HS80 RGB Wireless",
+    "Category": [
+      "Audio",
+      "Gaming",
+      "Headphones"
+    ],
+    "Description": "Casque gaming sans fil Dolby Atmos, 20h autonomie.",
+    "ImageFile": "corsair-hs80-rgb.png",
+    "Price": 149.99
+  },
+  {
+    "Name": "NZXT H9 Flow",
+    "Category": [
+      "Case",
+      "NZXT"
+    ],
+    "Description": "Boîtier PC ATX double chambre full mesh pour airflow optimal.",
+    "ImageFile": "nzxt-h9-flow.png",
+    "Price": 179.99
+  },
+  {
+    "Name": "Corsair RM1000x",
+    "Category": [
+      "PSU",
+      "Corsair"
+    ],
+    "Description": "Alimentation 1000W 80+ Gold modulaire silencieuse.",
+    "ImageFile": "corsair-rm1000x.png",
+    "Price": 189.99
+  },
+  {
+    "Name": "Apple Watch Ultra 2",
+    "Category": [
+      "Wearable",
+      "Apple"
+    ],
+    "Description": "Montre connectée titanium 49mm GPS double fréquence.",
+    "ImageFile": "apple-watch-ultra-2.png",
+    "Price": 799.99
+  },
+  {
+    "Name": "Garmin Fenix 7X Pro",
+    "Category": [
+      "Wearable",
+      "Garmin"
+    ],
+    "Description": "Montre sport GPS multisport avec solaire et cartes topo.",
+    "ImageFile": "garmin-fenix-7x-pro.png",
+    "Price": 899.99
+  },
+  {
+    "Name": "Logitech G Pro X Superlight 2",
+    "Category": [
+      "Peripherals",
+      "Mouse",
+      "Gaming"
+    ],
+    "Description": "Souris gaming sans fil ultra-légère 60g HERO 2 32K DPI.",
+    "ImageFile": "logitech-g-pro-x-superlight-2.png",
+    "Price": 159.99
+  },
+  {
+    "Name": "SteelSeries Apex Pro TKL",
+    "Category": [
+      "Peripherals",
+      "Keyboard",
+      "Gaming"
+    ],
+    "Description": "Clavier gaming TKL avec OmniPoint 2.0 switches ajustables.",
+    "ImageFile": "steelseries-apex-pro-tkl.png",
+    "Price": 199.99
+  },
+  {
+    "Name": "Elgato HD60 X",
+    "Category": [
+      "Streaming",
+      "Elgato"
+    ],
+    "Description": "Carte de capture externe 4K 30fps / 1080p 60fps HDR.",
+    "ImageFile": "elgato-hd60-x.png",
+    "Price": 149.99
+  },
+  {
+    "Name": "Sony FX3",
+    "Category": [
+      "Camera",
+      "Sony",
+      "Cinema"
+    ],
+    "Description": "Caméra cinéma full frame 4K 120fps avec refroidissement actif.",
+    "ImageFile": "sony-fx3.png",
+    "Price": 3899.99
+  },
+  {
+    "Name": "Blackmagic Pocket Cinema 6K G2",
+    "Category": [
+      "Camera",
+      "Cinema"
+    ],
+    "Description": "Caméra cinema 6K Super 35 avec enregistrement RAW.",
+    "ImageFile": "bmpcc-6k-g2.png",
+    "Price": 1995.00
+  },
+  {
+    "Name": "Zhiyun Crane 4",
+    "Category": [
+      "Camera",
+      "Gimbal"
+    ],
+    "Description": "Stabilisateur 3 axes pour reflex/hybrides jusqu'à 3kg.",
+    "ImageFile": "zhiyun-crane-4.png",
+    "Price": 349.99
+  },
+  {
+    "Name": "Aputure 600d Pro",
+    "Category": [
+      "Lighting",
+      "Photography"
+    ],
+    "Description": "Projecteur LED 600W daylight 5600K pour production vidéo.",
+    "ImageFile": "aputure-600d-pro.png",
+    "Price": 1599.99
+  },
+  {
+    "Name": "ASUS ROG Ally X",
+    "Category": [
+      "Gaming",
+      "Handheld"
+    ],
+    "Description": "Console PC portable AMD Z1 Extreme 1TB 7\" FHD 120Hz.",
+    "ImageFile": "asus-rog-ally-x.png",
+    "Price": 799.99
+  },
+  {
+    "Name": "Steam Deck OLED",
+    "Category": [
+      "Gaming",
+      "Handheld"
+    ],
+    "Description": "Console PC portable Valve OLED HDR 90Hz 1TB.",
+    "ImageFile": "steam-deck-oled.png",
+    "Price": 679.99
+  },
+  {
+    "Name": "Teenage Engineering Pocket Operator",
+    "Category": [
+      "Audio",
+      "Synthesizer"
+    ],
+    "Description": "Séquenceur/synthétiseur de poche avec haut-parleur intégré.",
+    "ImageFile": "teenage-engineering-po.png",
+    "Price": 89.99
+  },
+  {
+    "Name": "Ableton Push 3",
+    "Category": [
+      "Audio",
+      "Controller"
+    ],
+    "Description": "Contrôleur/instrument autonome MPE avec processeur intégré.",
+    "ImageFile": "ableton-push-3.png",
+    "Price": 1999.99
+  },
+  {
+    "Name": "Elgato Prompter",
+    "Category": [
+      "Streaming",
+      "Elgato"
+    ],
+    "Description": "Téléprompter avec écran intégré pour caméra ou webcam.",
+    "ImageFile": "elgato-prompter.png",
+    "Price": 279.99
+  },
+  {
+    "Name": "Sony LinkBuds S",
+    "Category": [
+      "Audio",
+      "Sony"
+    ],
+    "Description": "Écouteurs true wireless ANC ultra-légers 4.8g LDAC.",
+    "ImageFile": "sony-linkbuds-s.png",
+    "Price": 149.99
+  },
+  {
+    "Name": "Logitech Brio 4K",
+    "Category": [
+      "Streaming",
+      "Camera"
+    ],
+    "Description": "Webcam 4K Ultra HD avec HDR et Windows Hello.",
+    "ImageFile": "logitech-brio-4k.png",
+    "Price": 199.99
+  },
+  {
+    "Name": "Peak Design Everyday Backpack 20L",
+    "Category": [
+      "Accessories",
+      "Bag"
+    ],
+    "Description": "Sac à dos modulaire pour photo/laptop avec FlexFold dividers.",
+    "ImageFile": "peak-design-backpack-20l.png",
+    "Price": 299.99
+  },
+  {
+    "Name": "Loupedeck Live S",
+    "Category": [
+      "Streaming",
+      "Controller"
+    ],
+    "Description": "Console de contrôle compacte pour streaming et édition créative.",
+    "ImageFile": "loupedeck-live-s.png",
+    "Price": 179.99
+  },
+  {
+    "Name": "Elgato 4K X Capture Card",
+    "Category": [
+      "Streaming",
+      "Elgato"
+    ],
+    "Description": "Carte de capture interne PCIe 4K 60fps HDR10+ VRR.",
+    "ImageFile": "elgato-4k-x.png",
+    "Price": 199.99
+  },
+  {
+    "Name": "Western Digital Black SN850X 2TB",
+    "Category": [
+      "Storage",
+      "WD"
+    ],
+    "Description": "SSD NVMe M.2 PCIe Gen4 7300MB/s avec heatsink.",
+    "ImageFile": "wd-black-sn850x-2tb.png",
+    "Price": 189.99
+  },
+  {
+    "Name": "Razer Basilisk V3 Pro",
+    "Category": [
+      "Peripherals",
+      "Mouse",
+      "Gaming"
+    ],
+    "Description": "Souris gaming sans fil avec scroll HyperScroll Tilt 30K DPI.",
+    "ImageFile": "razer-basilisk-v3-pro.png",
+    "Price": 159.99
+  },
+  {
+    "Name": "Kinesis Advantage360 Pro",
+    "Category": [
+      "Peripherals",
+      "Keyboard",
+      "Ergonomic"
+    ],
+    "Description": "Clavier ergonomique split mécanique sans fil programmable.",
+    "ImageFile": "kinesis-advantage360-pro.png",
+    "Price": 449.99
+  },
+  {
+    "Name": "Ergotron LX Monitor Arm",
+    "Category": [
+      "Accessories",
+      "Ergonomic"
+    ],
+    "Description": "Bras de moniteur simple articulé jusqu'à 34 pouces 11.3kg.",
+    "ImageFile": "ergotron-lx-arm.png",
+    "Price": 149.99
+  },
+  {
+    "Name": "Flexispot E7 Pro",
+    "Category": [
+      "Furniture",
+      "Desk"
+    ],
+    "Description": "Bureau assis-debout électrique 180x80cm capacité 160kg.",
+    "ImageFile": "flexispot-e7-pro.png",
+    "Price": 599.99
+  },
+  {
+    "Name": "Elgato Temp Control",
+    "Category": [
+      "Streaming",
+      "Elgato",
+      "Accessories"
+    ],
+    "Description": "Capteur de température et humidité pour setups streaming.",
+    "ImageFile": "elgato-temp-control.png",
+    "Price": 39.99
+  },
+  {
+    "Name": "Nanoleaf Lines",
+    "Category": [
+      "Lighting",
+      "Smart Home"
+    ],
+    "Description": "Panneaux LED modulaires connectés pour ambient lighting gaming.",
+    "ImageFile": "nanoleaf-lines.png",
+    "Price": 199.99
+  },
+  {
+    "Name": "Govee Immersion TV Backlight",
+    "Category": [
+      "Lighting",
+      "Smart Home"
+    ],
+    "Description": "Rétroéclairage TV LED RGBIC avec caméra de capture couleur.",
+    "ImageFile": "govee-immersion-tv.png",
+    "Price": 89.99
+  },
+  {
+    "Name": "Philips Hue Play Bar",
+    "Category": [
+      "Lighting",
+      "Smart Home"
+    ],
+    "Description": "Barre lumineuse Zigbee RGBW pour sync avec jeux et films.",
+    "ImageFile": "philips-hue-play-bar.png",
+    "Price": 79.99
+  },
+  {
+    "Name": "CalDigit TS4 Thunderbolt 4 Dock",
+    "Category": [
+      "Accessories",
+      "Hub"
+    ],
+    "Description": "Dock Thunderbolt 4 18 ports 98W charging pour MacBook/PC.",
+    "ImageFile": "caldigit-ts4.png",
+    "Price": 349.99
+  },
+  {
+    "Name": "Elgato Master Mount L",
+    "Category": [
+      "Streaming",
+      "Elgato",
+      "Accessories"
+    ],
+    "Description": "Bras de bureau avec clamp pour caméras, micros et lumières.",
+    "ImageFile": "elgato-master-mount-l.png",
+    "Price": 89.99
+  }
+]
