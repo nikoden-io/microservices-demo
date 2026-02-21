@@ -8,6 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <Content Update="Data\products.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+    
+    <ItemGroup>
         <Content Include="..\..\..\.dockerignore">
             <Link>.dockerignore</Link>
         </Content>
