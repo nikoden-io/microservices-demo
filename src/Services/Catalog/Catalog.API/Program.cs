@@ -11,6 +11,7 @@ builder.Services.AddMarten(opts => { opts.Connection(builder.Configuration.GetCo
 builder.Services.AddMediatR(cfg =>
 {
     cfg.RegisterServicesFromAssembly(assembly);
+    cfg.AddOpenBehavior(typeof(LoggingBehavior<,>));
     cfg.AddOpenBehavior(typeof(ValidationBehavior<,>));
 });
 
