@@ -14,4 +14,9 @@ var app = builder.Build();
 
 app.MapCarter();
 app.UseExceptionHandler();
+
+app.UseHealthChecks("/health", new HealthCheckOptions
+{
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
 app.Run();
