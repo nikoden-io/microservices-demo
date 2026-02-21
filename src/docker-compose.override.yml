@@ -1,4 +1,23 @@
 services:
+  # DATABASES
+  basket.db:
+    image: postgres:18-alpine
+    container_name: basket.db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=BasketDb
+    restart: always
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_basket:/var/lib/postgresql
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+  
   catalog.db:
     image: postgres:18-alpine
     container_name: catalog.db
@@ -16,6 +35,32 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+  
+  # API SERCICES    
+  basket.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Passw0rd!
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      - ConnectionStrings__Database=Server=basketdb;Port=5432;Database=BasketDb;User Id=postgres;Password=postgres;Include Error Detail=true
+      - ConnectionStrings__Redis=distributedcache:6379
+      - GrpcSettings__DiscountUrl=https://discount.grpc:8081
+      - MessageBroker__Host=amqp://ecommerce-mq:5672
+      - MessageBroker__UserName=guest
+      - MessageBroker__Password=guest
+    depends_on:
+      basket.db:
+        condition: service_healthy
+#      - distributedcache
+#      - discount.grpc
+#      - messagebroker
+    ports:
+      - "6001:8080"
+      - "6061:8081"
+    volumes:
+      - ./.docker/certs:/https:ro
 
   catalog.api:
     environment:
